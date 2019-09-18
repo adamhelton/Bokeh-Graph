@@ -14,3 +14,9 @@ output_file('Line.html')
 
 #Create a figure object
 f = figure()
+
+#Create line plot
+
+f.line(x,y)
+
+show(f)
